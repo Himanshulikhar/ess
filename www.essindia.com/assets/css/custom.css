@@ -1,0 +1,233 @@
+body {
+    overflow-x: hidden !important;
+}
+
+.team-members {
+    padding: 0px 0;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 800px) {
+    .team-members .content-wrapper .member {
+        flex-basis: 24%;
+        margin: 5px;
+    }
+}
+
+.team-members .content-wrapper .member figcaption ul li a {
+    font-size: 20px;
+}
+
+.press-relases {
+    padding: 0px 0;
+    padding-bottom: 30px;
+}
+
+.section-spacing {
+    margin-bottom: 10px !important;
+}
+
+@media only screen and (max-width: 767px),
+only screen and (max-device-width: 767px) {
+    .sandwich-menu.open {
+        top: -150px;
+    }
+}
+
+.slider .swiper-slide h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.slider .swiper-slide h6 {
+    margin-top: 0;
+}
+
+.form_wrapper {
+    width: 340px !important;
+    margin: 0 !important;
+}
+
+.form_wrapper .row {
+    margin: 0px -15px !important;
+}
+
+.form_wrapper .input_field {
+    margin-bottom: 15px !important;
+}
+
+@media only screen and (max-width: 767px),
+only screen and (max-device-width: 767px) {
+    .form_wrapper {
+        width: 300px !important;
+        display: none !important;
+    }
+}
+
+#demoform input[type=text] {
+    height: 30px !important;
+    border: 1px solid #eaebee;
+    background: #fff;
+    padding: 0 15px !important;
+}
+
+#request-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 65px !important;
+    padding-bottom: 50px !important;
+    background: #405089;
+    margin-bottom: 0px !important;
+}
+
+.form_section_wrapper {
+    border: 5px solid #ff5e14;
+    padding: 15px;
+}
+
+.light-wrapper .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    color: #fff;
+    font-size: 36px;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+/* .language_link {
+    position: fixed;
+    top: 35%;
+    right: 0;
+    z-index: 11;
+    color: #fefffe;
+    padding: 5px 10px;
+}
+#select_language{
+    height:30px!important;
+    position:relative;
+    background-color: #06c458;
+    box-shadow: 0px 1px 8px grey;
+} */
+
+/* selector */
+
+.sidebar-form {
+    position: fixed;
+    top: 50%;
+    right: -300px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    border-radius: 8px 0 0 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    transform: translateY(-50%);
+    transition: right .4s linear;
+    height: 200px;
+}
+
+.sidebar-form.show {
+    right: 0;
+}
+
+.sidebar-form .call-action {
+    position: absolute;
+    background-color: var(--purple);
+    font-family: 'roboto';
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: var(--white);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    left: -100px;
+    top: 50%;
+    font-size: 20px;
+    background-color: rgb(153, 15, 15);
+    color: white;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.sidebar-form h3 {
+    font-family: 'montserrat';
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--red);
+}
+
+.sidebar-form .form-group {
+    margin-bottom: 10px;
+}
+
+.sidebar-form .form-group label {
+    font-family: 'roboto';
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 2px;
+    color: #333;
+}
+
+.sidebar-form #submit-btn {
+    width: 100%;
+    border: none;
+    margin-top: 8px;
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 7px;
+    font-family: 'roboto';
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.language_selector {
+    width: 200px;
+    border: 1px solid #222;
+    color: rgb(0, 0, 0);
+    line-height: 25px;
+    font-size: 14px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.language_selector span {
+    float: right;
+}
+
+.languages {
+    display: none;
+    margin: 0;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px 1px rgb(223, 222, 222);
+    width: 70%;
+    border: 1px soild grey;
+    border-bottom: 3px solid rgb(160, 12, 12);
+    position: absolute;
+}
+
+.languages>li {
+    line-height: 25px;
+    font-size: 14px;
+    padding: 3px 10px;
+    cursor: pointer;
+    list-style: none;
+    display: block;
+}
+
+.languages>li a {
+    text-decoration: none;
+    color: black;
+}
+
+.languages>li:hover {
+    background: #aaa;
+}
+
+/* .header .navbar .container .nav-menu li a{
+    padding: 0 7px;
+} */
